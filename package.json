@@ -1,0 +1,30 @@
+{
+  "title": "nrama",
+  "name": "nrama",
+  "version": "0.0.1",
+  "description": "note-o-rama extension",
+  "main": "index.js",
+  "author": "stephen.a.butterfill",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "preferences": [{
+          "name": "username",
+          "title": "note-o-rama username",
+          "description": "your note-o-rama username",
+          "type": "string",
+          "value": "steve"
+      },
+      {
+          "name": "password",
+          "title": "note-o-rama password",
+          "description": "your note-o-rama password",
+          "type": "string"
+      }
+  ],
+  "permissions": {
+      "cross-domain-content": ["https://noteorama.iriscouch.com/"]
+  },
+  "license": "MIT"
+}
